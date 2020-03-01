@@ -1,0 +1,116 @@
+body{
+    height: 100%;
+    background-color: white;
+	margin: 0;
+
+}
+
+html{
+	min-height: 100%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+.bg{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.aprasas{
+    text-align: left;
+    font-size: 24px;
+    margin-right: 20px;
+    width: 800px;
+    float: right;
+    padding-right: 60px;
+}
+
+.button {
+	margin-top: 15px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.egiptas{
+    float: left;
+    padding-left: 60px;
+    padding-bottom: 100px;
+    
+
+}
+
+.marsrutas{
+	float: left;
+	padding-top: 50px;
+	padding-left: 170px;
+	padding-bottom: 100px;
+	width: 20%;
+	height: auto;
+}
+
+.pavadinimas{
+    color: white; 
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+}
+
+.keliones_pavadinimas{
+    text-align: center;
+}
+
+#footer{
+    position: relative;
+	margin-top: -100px;
+	clear: both;
+	height: 40px;
+	background-color: #333;
+	color: white;
+	text-align: right;
+	font-size: 24px;
+}
+
+#vardas{
+	padding-top: 6px;
+	padding-right: 10px;
+}
